@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Sharma's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Vishal Sharma's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Programming</li>
+            <li>Data Analysis</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <img src="/vishalprojectss1.png" alt="Project 1 Screenshot">
+            <p>This is the section where anyone can drop there details to contact me.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <img src="/vishalprojectss2.png" alt="Project 2 Screenshot">
+            <p>This is the project details section of my Portfolio website.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm" onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="mobile">Mobile Number:</label>
+            <input type="text" id="mobile" name="mobile" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="organization">Organization:</label>
+            <input type="text" id="organization" name="organization">
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vishal Sharma</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
